@@ -1,5 +1,5 @@
 class: center, middle
-background-image: url(img/image.jpg)
+background-image: url(assets/images/background.jpg)
 count: false
 
 # Title
