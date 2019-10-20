@@ -2,7 +2,7 @@
 
 This GitHub template is agnostic to the programming language used, uses GitHub Actions to manage issues and pull requests, and helps enforce best practices for small projects.  To use the template, [generate](https://github.com/maehr/github-template/generate) a new project and perform the following tasks.
 
-* [x] add `Moritz Maehr`, `maehr` and `academic-remark-template` to [README.md](README.md) and change it according to [www.makeareadme.com](https://www.makeareadme.com/)
+* [x] add `Moritz Maehr`, `maehr` and `academic-revealjs-template` to [README.md](README.md) and change it according to [www.makeareadme.com](https://www.makeareadme.com/)
 * [x] add `2019` and `Moritz Maehr` to [LICENSE.md](LICENSE.md)
 * [x] add `moritz.maehr@gmail.com` to [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 * [x] use [www.gitignore.io](https://www.gitignore.io/) to enhance [.gitignore](.gitignore)
@@ -18,17 +18,17 @@ This GitHub template is agnostic to the programming language used, uses GitHub A
 
 * https://github.com/edwardtufte/tufte-css
 * alternatively https://github.com/matejlatin/Gutenberg
-
+* https://dev.to/emmawedekind/how-to-build-a-captivating-presentation-using-html-css--javascript-nno
 ---
 
-# academic-remark-template
+# academic-revealjs-template
 
 Foobar is a Python library for dealing with word pluralization.
 
-[![GitHub issues](https://img.shields.io/github/issues/maehr/academic-remark-template.svg)](https://github.com/maehr/academic-remark-template/issues)
-[![GitHub forks](https://img.shields.io/github/forks/maehr/academic-remark-template.svg)](https://github.com/maehr/academic-remark-template/network)
-[![GitHub stars](https://img.shields.io/github/stars/maehr/academic-remark-template.svg)](https://github.com/maehr/academic-remark-template/stargazers)
-[![GitHub license](https://img.shields.io/github/license/maehr/academic-remark-template.svg)](https://github.com/maehr/academic-remark-template/blob/master/LICENSE.md)
+[![GitHub issues](https://img.shields.io/github/issues/maehr/academic-revealjs-template.svg)](https://github.com/maehr/academic-revealjs-template/issues)
+[![GitHub forks](https://img.shields.io/github/forks/maehr/academic-revealjs-template.svg)](https://github.com/maehr/academic-revealjs-template/network)
+[![GitHub stars](https://img.shields.io/github/stars/maehr/academic-revealjs-template.svg)](https://github.com/maehr/academic-revealjs-template/stargazers)
+[![GitHub license](https://img.shields.io/github/license/maehr/academic-revealjs-template.svg)](https://github.com/maehr/academic-revealjs-template/blob/master/LICENSE.md)
 
 ## Installation
 
@@ -54,8 +54,8 @@ This project is maintained by [@maehr](https://github.com/maehr). Please underst
 
 | Type                   | Platforms                                                    |
 | ---------------------- | ------------------------------------------------------------ |
-| 🚨 **Bug Reports**      | [GitHub Issue Tracker](https://github.com/maehr/academic-remark-template/issues) |
-| 🎁 **Feature Requests** | [GitHub Issue Tracker](https://github.com/maehr/academic-remark-template/issues) |
+| 🚨 **Bug Reports**      | [GitHub Issue Tracker](https://github.com/maehr/academic-revealjs-template/issues) |
+| 🎁 **Feature Requests** | [GitHub Issue Tracker](https://github.com/maehr/academic-revealjs-template/issues) |
 
 ## Roadmap
 
@@ -67,13 +67,13 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/maehr/academic-remark-template/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/maehr/academic-revealjs-template/tags).
 
 ## Authors and acknowledgment
 
 - **Moritz Maehr** - _Initial work_ - [maehr](https://github.com/maehr)
 
-See also the list of [contributors](https://github.com/maehr/academic-remark-template/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/maehr/academic-revealjs-template/graphs/contributors) who participated in this project.
 
 ## License
 

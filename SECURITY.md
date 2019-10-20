@@ -8,4 +8,4 @@
 
 ## Reporting a Vulnerability
 
-Please open use the [GitHub Issue Tracker](https://github.com/maehr/academic-remark-template/issues) to report vulnerabilities.
+Please open use the [GitHub Issue Tracker](https://github.com/maehr/academic-revealjs-template/issues) to report vulnerabilities.
