@@ -16,8 +16,6 @@ transition: slide # none/fade/slide/convex/concave/zoom
 <section data-markdown><textarea data-template>
 ## Headings
 ``` markdown
-# H1 for sections
-## H2 for slides
 # H1
 ## H2
 ### H3
