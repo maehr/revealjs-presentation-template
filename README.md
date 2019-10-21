@@ -38,6 +38,7 @@ This project is maintained by [@maehr](https://github.com/maehr). Please underst
 ## Roadmap
 
 - Currently Markdown slides need to wrapped inside of HTML tags. This should be simplified and integrated into the Jekyll template.
+- LaTeX support via MathJax should be added.
 
 ## Contributing
 
