@@ -5,12 +5,8 @@ theme: serif # check out https://revealjs.com/#/themes
 transition: slide # none/fade/slide/convex/concave/zoom
 ---
 <section data-markdown><textarea data-template>
-## Your title goes here
 ### revealjs-presentation-template
 
-`revealjs-presentation-template` running with [Jekyll](https://jekyllrb.com/) hosted on [GitHub Pages](https://pages.github.com/).
-
-Check out [github.com/maehr/revealjs-presentation-template](https://github.com/maehr/revealjs-presentation-template).
 - Click on [Use the template](https://github.com/maehr/revealjs-presentation-template/generate) or [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) this [repo](https://github.com/maehr/revealjs-presentation-template).
 - Activate [GitHub Pages](https://pages.github.com/) in repository settings and set [source](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source) to `master branch /docs folder`.
 - Change `docs/index.md` and push your commit.
