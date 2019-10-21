@@ -1,34 +1,29 @@
-* https://html5boilerplate.com/
-* https://github.com/edwardtufte/tufte-css
-* alternatively https://github.com/matejlatin/Gutenberg
-* https://dev.to/emmawedekind/how-to-build-a-captivating-presentation-using-html-css--javascript-nno
----
+# Reveal.js presentation template
 
-# revealjs-presentation-template
-
-Foobar is a Python library for dealing with word pluralization.
+[revealjs-presentation-template](https://maehr.github.io/revealjs-presentation-template/) is a simple template for presentations written in [Markdown](https://daringfireball.net/projects/markdown/) using [Reveal.js](https://github.com/hakimel/reveal.js/), [Jekyll](https://jekyllrb.com/) and [HTML5Boilerplate](https://html5boilerplate.com/). It can be hosted on [GitHub Pages](https://pages.github.com/).
 
 [![GitHub issues](https://img.shields.io/github/issues/maehr/revealjs-presentation-template.svg)](https://github.com/maehr/revealjs-presentation-template/issues)
 [![GitHub forks](https://img.shields.io/github/forks/maehr/revealjs-presentation-template.svg)](https://github.com/maehr/revealjs-presentation-template/network)
 [![GitHub stars](https://img.shields.io/github/stars/maehr/revealjs-presentation-template.svg)](https://github.com/maehr/revealjs-presentation-template/stargazers)
 [![GitHub license](https://img.shields.io/github/license/maehr/revealjs-presentation-template.svg)](https://github.com/maehr/revealjs-presentation-template/blob/master/LICENSE.md)
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
 ## Usage
 
-```python
-import foobar
+- Click on [Use the template](https://github.com/maehr/revealjs-presentation-template/generate) or [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) this repo.
+- Activate [GitHub Pages](https://pages.github.com/) in repository settings and set [source](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source) to `master branch /docs folder`.
+- Change `docs/index.md` and push your commit.
+- Enjoy your presentation <https://maehr.github.io/revealjs-presentation-template/>
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+## Installation
+
+- Click on [Use the template](https://github.com/maehr/revealjs-presentation-template/generate) or [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) this repo.
+- [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) it.
+- Install [Ruby](https://jekyllrb.com/docs/installation/), and follow [Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/) to run [revealjs-presentation-template](https://maehr.github.io/revealjs-presentation-template/) locally. Make sure you are in the `docs`directory.
+
+```bash
+cd ./docs
+gem install jekyll bundler
+bundle exec jekyll serve
 ```
 
 ## Support
@@ -42,7 +37,7 @@ This project is maintained by [@maehr](https://github.com/maehr). Please underst
 
 ## Roadmap
 
-No changes are currently planned.
+- Currently Markdown slides need to wrapped inside of HTML tags. This should be simplified and integrated into the Jekyll template.
 
 ## Contributing
 

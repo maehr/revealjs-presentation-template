@@ -1,45 +1,134 @@
 ---
-title: Academic Reveal.js presentation
-description: A presentation slide for how to use reveal.js in Jekyll
-theme: beige
-transition: slide
+title: Reveal.js presentation template
+description: Reveal.js presentation template running with Jekyll hosted on GitHub Pages.
+theme: serif # check out https://revealjs.com/#/themes
+transition: slide # none/fade/slide/convex/concave/zoom
 ---
-## Example Slides
+<section data-markdown><textarea data-template>
+## Your title goes here
 
-Using the `jekyll-reveal` template
+`revealjs-presentation-template` running with [Jekyll](https://jekyllrb.com/) hosted on [GitHub Pages](https://pages.github.com/).
+</textarea></section>
 
----
+<section data-markdown><textarea data-template>
+## Headings
+``` markdown
+# H1 for sections
+## H2 for slides
+### H3
+#### H4
+##### H5
+###### H6
+```
+</textarea></section>
 
-## A Title
+<section data-markdown><textarea data-template>
+## Emphasis
 
-* Some
-* List
-* Items
+Emphasis, aka italics, with *asterisks* or _underscores_.
 
------
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
 
-![Mother Teresa holding a newborn baby](assets/images/Biblioteca_de_la_Real_Academia_Española_(RAE).jpg)
+Combined emphasis with **asterisks and _underscores_**.
 
-> La Real Academia Española conserva un importante patrimonio documental y bibliográfico, que pone a disposición de investigadores acreditados.
+Strikethrough uses two tildes. ~~Scratch this.~~
+</textarea></section>
 
-*-- Biblioteca de la Real Academia Española*
+<section data-markdown><textarea data-template>
+## Links
 
-Image credit: Real Academia Española
+[I'm an inline-style link](https://www.google.com). [I'm an inline-style link with title](https://www.google.com "Google's Homepage"). [I'm a reference-style link][Arbitrary case-insensitive reference text]. [I'm a relative reference to a repository file](index.md). [You can use numbers for reference-style link definitions][1] Or leave it empty and use the [link text itself].
 
----
+URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com or <http://www.example.com>.
 
-## A fenced code block
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link text itself]: http://www.reddit.com
+</textarea></section>
 
-```js
-function wow () {
-  console.log('no way')
-}
+<section data-markdown><textarea data-template>
+## Images
+
+Here's our logo (hover to see the title text):
+
+Inline-style:
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+Reference-style:
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+</textarea></section>
+
+<section data-markdown><textarea data-template>
+## Code and syntax highlight
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
 ```
 
----
+```python
+s = "Python syntax highlighting"
+print s
+```
 
-## A Thrilling Conclusion
+```
+No language indicated, so no syntax highlighting.
+But let's throw in a <b>tag</b>.
+```
+</textarea></section>
 
-1. yes
-2. indeed
-note: Bla
+<section data-markdown><textarea data-template>
+## Tables I
+
+Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+</textarea></section>
+
+<section data-markdown><textarea data-template>
+## Tables II
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the
+raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+</textarea></section>
+
+<section data-markdown><textarea data-template>
+## Blockquotes
+
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+</textarea></section>
+
+<section data-markdown><textarea data-template>
+## Inline HTML
+
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+</textarea></section>
+
+<section data-markdown><textarea data-template>
+## YouTube Videos
+
+<iframe width="840" height="480" src="https://www.youtube.com/embed/HUBNt18RFbo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Just copy and paste the embedded code from [YouTube](https://www.youtube.com/).
+</textarea></section>
