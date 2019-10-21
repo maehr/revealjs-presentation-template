@@ -8,6 +8,8 @@ transition: slide # none/fade/slide/convex/concave/zoom
 ## Your title goes here
 
 `revealjs-presentation-template` running with [Jekyll](https://jekyllrb.com/) hosted on [GitHub Pages](https://pages.github.com/).
+
+Check out [github.com/maehr/revealjs-presentation-template](https://github.com/maehr/revealjs-presentation-template).
 </textarea></section>
 
 <section data-markdown><textarea data-template>
