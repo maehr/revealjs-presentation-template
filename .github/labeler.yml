@@ -1,20 +1,16 @@
 src:
-- src/*
+- docs/*
+- .editorconfig
 - .gitattributes
 - .gitignore
+- .gitmodules
 
 docs:
-- docs/*
 - CODE_OF_CONDUCT.md
 - CONTRIBUTING.md
 - LICENSE.md
 - README.md
 - SECURITY.md
-
-docker:
-- .dockerignore
-- Dockerfile
-- docker-compose.yml
 
 github:
 - .github/*

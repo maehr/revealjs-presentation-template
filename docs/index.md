@@ -6,10 +6,15 @@ transition: slide # none/fade/slide/convex/concave/zoom
 ---
 <section data-markdown><textarea data-template>
 ## Your title goes here
+### revealjs-presentation-template
 
 `revealjs-presentation-template` running with [Jekyll](https://jekyllrb.com/) hosted on [GitHub Pages](https://pages.github.com/).
 
 Check out [github.com/maehr/revealjs-presentation-template](https://github.com/maehr/revealjs-presentation-template).
+- Click on [Use the template](https://github.com/maehr/revealjs-presentation-template/generate) or [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) this [repo](https://github.com/maehr/revealjs-presentation-template).
+- Activate [GitHub Pages](https://pages.github.com/) in repository settings and set [source](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source) to `master branch /docs folder`.
+- Change `docs/index.md` and push your commit.
+- Enjoy your [presentation](https://maehr.github.io/revealjs-presentation-template/)
 </textarea></section>
 
 <section data-markdown><textarea data-template>
@@ -17,6 +22,8 @@ Check out [github.com/maehr/revealjs-presentation-template](https://github.com/m
 ``` markdown
 # H1 for sections
 ## H2 for slides
+# H1
+## H2
 ### H3
 #### H4
 ##### H5
@@ -63,7 +70,7 @@ Reference-style:
 </textarea></section>
 
 <section data-markdown><textarea data-template>
-## Code and syntax highlight
+### Code and syntax highlight
 
 ```javascript
 var s = "JavaScript syntax highlighting";
@@ -107,7 +114,7 @@ Markdown | Less | Pretty
 </textarea></section>
 
 <section data-markdown><textarea data-template>
-## Blockquotes
+### Blockquotes
 
 > Blockquotes are very handy in email to emulate reply text.
 > This line is part of the same quote.
@@ -128,7 +135,7 @@ Markdown | Less | Pretty
 </textarea></section>
 
 <section data-markdown><textarea data-template>
-## YouTube Videos
+### YouTube Videos
 
 <iframe width="840" height="480" src="https://www.youtube.com/embed/HUBNt18RFbo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

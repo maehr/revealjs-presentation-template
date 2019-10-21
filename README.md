@@ -37,8 +37,9 @@ This project is maintained by [@maehr](https://github.com/maehr). Please underst
 
 ## Roadmap
 
-- Currently Markdown slides need to wrapped inside of HTML tags. This should be simplified and integrated into the Jekyll template.
-- LaTeX support via MathJax should be added.
+- Support for LaTeX via MathJax
+- Support for [custom themes](https://github.com/hakimel/reveal.js/blob/master/css/theme/README.md)
+- Removal of HTML tags (`<section>` etc.) inside Markdown slides via a smart Jekyll template
 
 ## Contributing
 
