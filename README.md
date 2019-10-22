@@ -9,14 +9,14 @@
 
 ## Usage
 
-- Click on [Use the template](https://github.com/maehr/revealjs-presentation-template/generate) or [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) this repo.
+- Click on [Use the template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) or [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) this repo.
 - Activate [GitHub Pages](https://pages.github.com/) in repository settings and set [source](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source) to `master branch /docs folder`.
 - Change `docs/index.md` and push your commit.
 - Enjoy your presentation <https://maehr.github.io/revealjs-presentation-template/>
 
 ## Installation
 
-- Click on [Use the template](https://github.com/maehr/revealjs-presentation-template/generate) or [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) this repo.
+- Click on [Use the template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) or [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) this repo.
 - [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) it.
 - Install [Ruby](https://jekyllrb.com/docs/installation/), and follow [Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/) to run [revealjs-presentation-template](https://maehr.github.io/revealjs-presentation-template/) locally. Make sure you are in the `docs`directory.
 
