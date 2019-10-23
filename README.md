@@ -37,9 +37,9 @@ This project is maintained by [@maehr](https://github.com/maehr). Please underst
 
 ## Roadmap
 
-- Support for LaTeX via MathJax
 - Support for [custom themes](https://github.com/hakimel/reveal.js/blob/master/css/theme/README.md)
 - Removal of HTML tags (`<section>` etc.) inside Markdown slides via a smart Jekyll template
+- Replace MathJax CDN link with `docs/assets/vendor/MathJax`
 
 ## Contributing
 
