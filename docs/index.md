@@ -129,6 +129,15 @@ Markdown | Less | Pretty
 </textarea></section>
 
 <section data-markdown><textarea data-template>
+## Inline LaTeX
+
+
+When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
+</textarea></section>
+
+<section data-markdown><textarea data-template>
 ### YouTube Videos
 
 <iframe width="840" height="480" src="https://www.youtube.com/embed/HUBNt18RFbo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

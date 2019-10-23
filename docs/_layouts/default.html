@@ -18,15 +18,15 @@
   <link rel="manifest" href="{{ "/site.webmanifest" | prepend: site.baseurl }}" />
 
   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-  <link rel="stylesheet" href="{{ "/reveal.js/css/reveal.css" | prepend: site.baseurl }}" />
+  <link rel="stylesheet" href="{{ "/assets/vendor/reveal.js/css/reveal.css" | prepend: site.baseurl }}" />
   {%if page.theme %}
-  <link rel="stylesheet" href="{{ "/reveal.js/css/theme/" | prepend: site.baseurl | append: page.theme | append: '.css' }}" id="theme" />
+  <link rel="stylesheet" href="{{ "/assets/vendor/reveal.js/css/theme/" | prepend: site.baseurl | append: page.theme | append: '.css' }}" id="theme" />
   {% else %}
-  <link rel="stylesheet" href="{{ "/reveal.js/css/theme/black.css" | prepend: site.baseurl }}" id="theme" />
+  <link rel="stylesheet" href="{{ "/assets/vendor/reveal.js/css/theme/black.css" | prepend: site.baseurl }}" id="theme" />
   {% endif %}
 
   <!-- Code syntax highlighting -->
-  <link rel="stylesheet" href="{{ "/reveal.js/lib/css/zenburn.css" | prepend: site.baseurl }}" />
+  <link rel="stylesheet" href="{{ "/assets/vendor/reveal.js/lib/css/zenburn.css" | prepend: site.baseurl }}" />
 
   <!-- Printing and PDF exports -->
   <script>
@@ -49,7 +49,7 @@
     </div>
   </div>
 
-  <script src="{{ "/reveal.js/js/reveal.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/assets/vendor/reveal.js/js/reveal.js" | prepend: site.baseurl }}"></script>
   <script>
     // More info about config & dependencies:
     // - https://github.com/hakimel/reveal.js#configuration
@@ -202,14 +202,17 @@
       {% endif %}
       // Optional reveal.js plugins
       dependencies: [
-        { src: '{{ "/reveal.js/lib/js/classList.js" | prepend: site.baseurl }}', condition: function() { return !document.body.classList; } },
-        { src: '{{ "/reveal.js/plugin/markdown/marked.js" | prepend: site.baseurl }}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-        { src: '{{ "/reveal.js/plugin/markdown/markdown.js" | prepend: site.baseurl }}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-        { src: '{{ "/reveal.js/plugin/highlight/highlight.js" | prepend: site.baseurl }}', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-        { src: '{{ "/reveal.js/plugin/zoom-js/zoom.js" | prepend: site.baseurl }}', async: true },
-        { src: '{{ "/reveal.js/plugin/notes/notes.js" | prepend: site.baseurl }}', async: true }
+        { src: '{{ "/assets/vendor/reveal.js/lib/js/classList.js" | prepend: site.baseurl }}', condition: function() { return !document.body.classList; } },
+        { src: '{{ "/assets/vendor/reveal.js/plugin/markdown/marked.js" | prepend: site.baseurl }}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: '{{ "/assets/vendor/reveal.js/plugin/markdown/markdown.js" | prepend: site.baseurl }}', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: '{{ "/assets/vendor/reveal.js/plugin/highlight/highlight.js" | prepend: site.baseurl }}', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: '{{ "/assets/vendor/reveal.js/plugin/zoom-js/zoom.js" | prepend: site.baseurl }}', async: true },
+        { src: '{{ "/assets/vendor/reveal.js/plugin/notes/notes.js" | prepend: site.baseurl }}', async: true }
       ]
     });
+  </script>
+  <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
   </script>
 </body>
 
