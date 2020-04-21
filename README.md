@@ -18,9 +18,10 @@
 
 - Click on [Use the template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) or [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) this repo.
 - [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) it.
-- Install [Ruby](https://jekyllrb.com/docs/installation/), and follow [Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/) to run [revealjs-presentation-template](https://maehr.github.io/revealjs-presentation-template/) locally. Make sure you are in the `docs`directory.
+- Install [Ruby](https://jekyllrb.com/docs/installation/), and install [Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/) to run [revealjs-presentation-template](https://maehr.github.io/revealjs-presentation-template/) locally. Make sure you are in the `docs`directory.
 
 ```bash
+git submodule update --init --recursive
 cd ./docs
 gem install jekyll bundler
 bundle exec jekyll serve
