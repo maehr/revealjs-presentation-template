@@ -21,7 +21,8 @@
 - Install [Ruby](https://jekyllrb.com/docs/installation/), and install [Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/) to run [revealjs-presentation-template](https://maehr.github.io/revealjs-presentation-template/) locally. Make sure you are in the `docs`directory.
 
 ```bash
-git submodule add -f https://github.com/hakimel/reveal.js/ docs/assets/vendor/reveal.js
+git submodule init
+git submodule update --remote
 cd ./docs
 gem install jekyll bundler
 bundle exec jekyll serve
