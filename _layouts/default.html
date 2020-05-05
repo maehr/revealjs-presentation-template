@@ -19,7 +19,7 @@
 
   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/vendor/reveal.js/css/reveal.css" | prepend: site.baseurl }}" />
-  {%if page.theme %}
+  {% if page.theme %}
   <link rel="stylesheet" href="{{ "/assets/vendor/reveal.js/css/theme/" | prepend: site.baseurl | append: page.theme | append: '.css' }}" id="theme" />
   {% else %}
   <link rel="stylesheet" href="{{ "/assets/vendor/reveal.js/css/theme/black.css" | prepend: site.baseurl }}" id="theme" />

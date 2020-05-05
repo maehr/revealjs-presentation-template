@@ -1,63 +1,160 @@
-# Reveal.js presentation template
+---
+title: Reveal.js presentation template
+description: Reveal.js presentation template running with Jekyll hosted on GitHub Pages.
+theme: serif # check out https://revealjs.com/#/themes
+transition: slide # none/fade/slide/convex/concave/zoom
+---
+<section data-markdown><textarea data-template>
+### revealjs-presentation-template
 
-[revealjs-presentation-template](https://maehr.github.io/revealjs-presentation-template/) is a simple template for presentations written in [Markdown](https://daringfireball.net/projects/markdown/) using [Reveal.js](https://github.com/hakimel/reveal.js/), [Jekyll](https://jekyllrb.com/) and [HTML5Boilerplate](https://html5boilerplate.com/). It can be hosted on [GitHub Pages](https://pages.github.com/).
-
-[![GitHub issues](https://img.shields.io/github/issues/maehr/revealjs-presentation-template.svg)](https://github.com/maehr/revealjs-presentation-template/issues)
-[![GitHub forks](https://img.shields.io/github/forks/maehr/revealjs-presentation-template.svg)](https://github.com/maehr/revealjs-presentation-template/network)
-[![GitHub stars](https://img.shields.io/github/stars/maehr/revealjs-presentation-template.svg)](https://github.com/maehr/revealjs-presentation-template/stargazers)
-[![GitHub license](https://img.shields.io/github/license/maehr/revealjs-presentation-template.svg)](https://github.com/maehr/revealjs-presentation-template/blob/master/LICENSE.md)
-
-## Usage
-
-- Click on [Use the template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) or [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) this repo.
+- Click on [Use the template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) or [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) this [repo](https://github.com/maehr/revealjs-presentation-template).
+- `git submodule add -f https://github.com/hakimel/reveal.js/ assets/vendor/reveal.js`
+- `git commit -a`.
 - Activate [GitHub Pages](https://pages.github.com/) in repository settings and set [source](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source) to `master branch /docs folder`.
-- Change `docs/index.md` and push your commit.
-- Enjoy your presentation <https://maehr.github.io/revealjs-presentation-template/>
 
-## Installation
+</textarea></section>
 
-- Click on [Use the template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) or [fork](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) this repo.
-- [Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) it.
-- Install [Ruby](https://jekyllrb.com/docs/installation/), and install [Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/) to run [revealjs-presentation-template](https://maehr.github.io/revealjs-presentation-template/) locally. Make sure you are in the `docs`directory.
+<section data-markdown><textarea data-template>
+### Run it locally
 
 ```bash
-git submodule add -f https://github.com/hakimel/reveal.js/ docs/assets/vendor/reveal.js
-cd ./docs
+git submodule add -f https://github.com/hakimel/reveal.js/ assets/vendor/reveal.js
 gem install jekyll bundler
 bundle exec jekyll serve
 ```
 
-## Support
+</textarea></section>
 
-This project is maintained by [@maehr](https://github.com/maehr). Please understand that we won't be able to provide individual support via email. We also believe that help is much more valuable if it's shared publicly, so that more people can benefit from it.
+<section data-markdown><textarea data-template>
+## Headings
 
-| Type                   | Platforms                                                    |
-| ---------------------- | ------------------------------------------------------------ |
-| 🚨 **Bug Reports**      | [GitHub Issue Tracker](https://github.com/maehr/revealjs-presentation-template/issues) |
-| 🎁 **Feature Requests** | [GitHub Issue Tracker](https://github.com/maehr/revealjs-presentation-template/issues) |
+```markdown
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+```
 
-## Roadmap
+</textarea></section>
 
-- Support for [custom themes](https://github.com/hakimel/reveal.js/blob/master/css/theme/README.md)
-- Removal of HTML tags (`<section>` etc.) inside Markdown slides via a smart Jekyll template
-- Replace MathJax CDN link with `docs/assets/vendor/MathJax`
-- More options via YAML front matter.
-- Make MathJax optional
+<section data-markdown><textarea data-template>
+## Emphasis
 
-## Contributing
+Emphasis, aka italics, with *asterisks* or _underscores_.
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
 
-## Versioning
+Combined emphasis with **asterisks and _underscores_**.
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/maehr/revealjs-presentation-template/tags).
+Strikethrough uses two tildes. ~~Scratch this.~~
+</textarea></section>
 
-## Authors and acknowledgment
+<section data-markdown><textarea data-template>
+## Links
 
-- **Moritz Maehr** - _Initial work_ - [maehr](https://github.com/maehr)
+[I'm an inline-style link](https://www.google.com). [I'm an inline-style link with title](https://www.google.com "Google's Homepage"). [I'm a reference-style link][Arbitrary case-insensitive reference text]. [I'm a relative reference to a repository file](index.md). [You can use numbers for reference-style link definitions][1] Or leave it empty and use the [link text itself].
 
-See also the list of [contributors](https://github.com/maehr/revealjs-presentation-template/graphs/contributors) who participated in this project.
+URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com or <http://www.example.com>.
 
-## License
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+[link text itself]: http://www.reddit.com
+</textarea></section>
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+<section data-markdown><textarea data-template>
+## Images
+
+Here's our logo (hover to see the title text):
+
+Inline-style:
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+Reference-style:
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+</textarea></section>
+
+<section data-markdown><textarea data-template>
+### Code and syntax highlight
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
+
+```python
+s = "Python syntax highlighting"
+print s
+```
+
+```
+No language indicated, so no syntax highlighting.
+But let's throw in a <b>tag</b>.
+```
+
+</textarea></section>
+
+<section data-markdown><textarea data-template>
+## Tables I
+
+Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+</textarea></section>
+
+<section data-markdown><textarea data-template>
+## Tables II
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the
+raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+</textarea></section>
+
+<section data-markdown><textarea data-template>
+### Blockquotes
+
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
+> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+</textarea></section>
+
+<section data-markdown><textarea data-template>
+## Inline HTML
+
+<dl>
+  <dt>Definition list</dt>
+  <dd>Is something people use sometimes.</dd>
+
+  <dt>Markdown in HTML</dt>
+  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
+</dl>
+</textarea></section>
+
+<section data-markdown><textarea data-template>
+## Inline LaTeX
+
+When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
+</textarea></section>
+
+<section data-markdown><textarea data-template>
+### YouTube Videos
+
+<iframe width="840" height="480" src="https://www.youtube.com/embed/HUBNt18RFbo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Just copy and paste the embedded code from [YouTube](https://www.youtube.com/).
+</textarea></section>

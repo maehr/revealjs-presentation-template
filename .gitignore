@@ -1,5 +1,7 @@
-# Created by https://www.gitignore.io/api/git,linux,osx,windows
-# Edit at https://www.gitignore.io/?templates=git,linux,osx,windows
+assets/vendor/reveal.js/*
+!assets/vendor/reveal.js/.gitkeep
+# Created by https://www.gitignore.io/api/osx,git,linux,jekyll,windows
+# Edit at https://www.gitignore.io/?templates=osx,git,linux,jekyll,windows
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
@@ -15,6 +17,12 @@
 *_BASE_*.txt
 *_LOCAL_*.txt
 *_REMOTE_*.txt
+
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
 ### Linux ###
 *~
@@ -85,4 +93,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/git,linux,osx,windows
+# End of https://www.gitignore.io/api/osx,git,linux,jekyll,windows
