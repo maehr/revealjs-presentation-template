@@ -3,6 +3,7 @@ title: Reveal.js presentation template
 description: Reveal.js presentation template running with Jekyll hosted on GitHub Pages.
 theme: serif # check out https://revealjs.com/#/themes
 transition: slide # none/fade/slide/convex/concave/zoom
+permalink: /
 ---
 <section data-markdown><textarea data-template>
   
